@@ -2,6 +2,7 @@ sublimes-shortcuts
 ==================
 Go to Prefrences->Key Bindings-User then add the following lines:
 
+```js
 [
 
 { "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
@@ -43,7 +44,7 @@ Go to Prefrences->Key Bindings-User then add the following lines:
 { "keys": ["ctrl+shift+alt+l"], "command": "set_setting", "args": { "setting": "rulers", "value": [80, 120] }	}
 
 ]
-
+```
 
 sublimes-useful packages
 ==================
